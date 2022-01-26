@@ -1,9 +1,8 @@
 import { useState } from 'react'
+import { Tweet } from './components/Tweet'
 
 function App() {
-
-  return <h1>Hello World</h1>
-
+  return <Tweet />
 }
 
 export default App
