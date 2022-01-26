@@ -1,3 +1,7 @@
-export function Tweet() {
-    return <div>Tweet</div>
+type TweetProps = {
+    text: string
+}
+
+export function Tweet(props: TweetProps) {
+    return <p>Tweet { props.text }</p>
 }
