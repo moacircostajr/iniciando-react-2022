@@ -2,11 +2,22 @@ import { useState } from 'react'
 import { Tweet } from './components/Tweet'
 
 function App() {
+
+  const [tweets, setTweets] = useState<string[]>(['1', '2', '3', '4'])
+
+  function createTweet() {
+    let nextTweet: number = Number(tweets[tweets.length -1])
+    setTweets([...tweets, String(++nextTweet)])
+  }
+
   return (
     <>
-      <Tweet text='1' />
-      <Tweet text='2' />
-      <Tweet text='3' />
+    {
+      tweets.map(tweet => {
+        return <Tweet key={tweet} text={tweet} />
+      })
+    }
+    <button onClick={createTweet}>Adicionar tweet</button>
     </>
   )
 }
