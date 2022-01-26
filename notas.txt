@@ -2,3 +2,12 @@
 
 $ yarn create vite iniciando-react-2022
 
+# React Router Dom 6.0 documentation:
+# https://reactrouter.com/docs/en/v6/getting-started/overview
+
+34:00 - O que estudar a mais sobre React?
+34:12 - CSS/Estilização no React (Styled Components & Stitches) + Radix (interessante!)
+38:27 - Data Fetching (SWR, React Query (relevante), GraphQL (tende a crescer))
+40:57 - State Management no React (Keep & simple, Reducer, Zustang)
+42:36 - Testes no React (Testing Library & Cypress)
+43:21 - Frameworks para React (Next.js (relevante) & Remix (alternativa ao next))
