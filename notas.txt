@@ -1,0 +1,4 @@
+# https://www.youtube.com/watch?v=pDbcC-xSat4
+
+$ yarn create vite iniciando-react-2022
+
