@@ -19,7 +19,13 @@ function App() {
         return <Tweet key={tweet} text={tweet} />
       })
     }
-    <button onClick={createTweet}>Adicionar tweet</button>
+    <button onClick={createTweet} style={{
+      backgroundColor: '#8257e6',
+      border: 0,
+      padding: '6px 12px',
+      color: '#FFF'
+    }}
+    >Adicionar tweet</button>
     </>
   )
 }
